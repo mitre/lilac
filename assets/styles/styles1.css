@@ -1,0 +1,88 @@
+/* (C) 2025 The MITRE Corporation. All Rights Reserved. */
+
+p {
+    font-size: 14px;
+}
+
+/* Checkbox group */
+div.bk-input-group label {
+    font-size: 13px;
+    /* Allow text wrap */
+    white-space: normal;
+    /* Apply the hanging indent */
+    text-indent: -1.4em;
+    padding-left: 1.4em;
+    margin-bottom: .5em;
+}
+
+.spin {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.hidden {
+    visibility:hidden;
+}
+
+.button :hover {
+    background-color: #888888;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.assistantMessage {
+    background-color: var(--panel-surface-color);
+    border-radius: 5px;
+    box-shadow: color-mix(in srgb, var(--panel-shadow-color) 30%, transparent) 0px 1px 2px 0px, color-mix(in srgb, var(--panel-shadow-color) 15%, transparent) 0px 1px 3px 1px;
+}
+
+.assistantMessageSelected {
+    background-color: var(--panel-surface-color);
+    border-radius: 5px;
+    box-shadow: color-mix(in srgb, var(--panel-shadow-color) 30%, transparent) 0px 1px 2px 0px, color-mix(in srgb, var(--panel-shadow-color) 15%, transparent) 0px 1px 3px 1px;
+    border: 2px solid darkblue !important;
+}
+
+.custom-refresh-button {
+    /* background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 15px; /* Padding */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.card-header-row {
+    flex-grow: 1;
+}
+
+.emoticon {
+    width:20px; 
+    height:20px; 
+    vertical-align:middle; 
+    margin-right:5px;
+}
+
+.fix-button {
+    margin:0px;
+    padding:0px;
+    vertical-align:top;
+    position:absolute;
+    /*top: -10%;*/
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
