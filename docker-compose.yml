@@ -1,0 +1,23 @@
+# (C) 2025 The MITRE Corporation. All Rights Reserved.
+
+version: '3'
+
+services:
+  lab-demo:
+    build:
+      context: .
+    volumes:
+      - ./demo.py:/app/demo.py
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      PORT: ${PORT}
+      BASE_URL: ${BASE_URL}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+
+      CHAT_MODEL_NAME: ${CHAT_MODEL_NAME}
+      CHAT_BASE_URL: ${CHAT_BASE_URL}
+
+      JUDGE_MODEL_NAME: ${JUDGE_MODEL_NAME}
+      JUDGE_BASE_URL: ${JUDGE_BASE_URL}
+    command: ["panel", "serve", "demo.py", "--autoreload", "--static-dirs", "assets=./assets", "--port", "${PORT}", "--address", "0.0.0.0", "--allow-websocket-origin", "${BASE_URL}:${PORT}"]
