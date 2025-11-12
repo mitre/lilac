@@ -42,7 +42,7 @@ MITRE LILAC&trade; is a toolkit for ensuring effective outputs from public-facin
 
 The demo shows how the LILAC [Problem Metrics](/assets/metrics) could function in a real-time monitoring and mitigation capacity for a chatbot application. It has the following capabilities as users interact with the chatbot:
 - **Inject** specific problems into chatbot responses
-- **Detect** specific problems chatbot responses
+- **Detect** specific problems in chatbot responses
 - **Explain** detected problems
 - Attempt to **fix** problematic responses via a "fix prompt" button which addresses the detected issues and re-prompts the model. 
 
