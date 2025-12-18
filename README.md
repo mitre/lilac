@@ -25,6 +25,7 @@
   - [License](#license)
   - [Contact](#contact)
   - [Notice](#notice)
+  - [Papers](#papers)
         
 
 ## What is MITRE LILAC&trade;?
@@ -218,3 +219,9 @@ For further information, please contact The MITRE Corporation, Contracts Managem
 
 MITRE LILAC™ and LILAC™ are trademarks of The MITRE Corporation. <br/>
 Approved for Public Release; Distribution Unlimited. Public Release Case Number 25-2555.
+
+## Papers
+
+Stanley, Jeff, and Hannah Lettie. *Emerging Risks and Mitigations for Public Chatbots: LILAC v1.* Technical Report. MITRE, 2024. https://www.mitre.org/sites/default/files/2024-10/PR-24-2767-Emerging-Risks-Mitigations-Public-Chatbots-LILAC-v1.pdf
+
+Stanley, Jeff, and Hannah Lettie. "What Happens When Chatbots Go Wild? An Evidence-Based Typology of Emerging Risks Related to Large Language Models in Public-Facing Chatbots." *International Conference on Computational Science and Computational Intelligence.* Cham: Springer Nature Switzerland, 2024.
