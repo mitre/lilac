@@ -224,4 +224,4 @@ Approved for Public Release; Distribution Unlimited. Public Release Case Number 
 
 Stanley, Jeff, and Hannah Lettie. *Emerging Risks and Mitigations for Public Chatbots: LILAC v1.* Technical Report. MITRE, 2024. https://www.mitre.org/sites/default/files/2024-10/PR-24-2767-Emerging-Risks-Mitigations-Public-Chatbots-LILAC-v1.pdf
 
-Stanley, Jeff, and Hannah Lettie. "What Happens When Chatbots Go Wild? An Evidence-Based Typology of Emerging Risks Related to Large Language Models in Public-Facing Chatbots." *International Conference on Computational Science and Computational Intelligence.* Cham: Springer Nature Switzerland, 2024.
+Stanley, Jeff, and Hannah Lettie. "What Happens When Chatbots Go Wild? An Evidence-Based Typology of Emerging Risks Related to Large Language Models in Public-Facing Chatbots." *International Conference on Computational Science and Computational Intelligence.* Cham: Springer Nature Switzerland, 2024. https://link.springer.com/chapter/10.1007/978-3-031-95130-5_22
