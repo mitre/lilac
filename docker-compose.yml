@@ -20,4 +20,6 @@ services:
 
       JUDGE_MODEL_NAME: ${JUDGE_MODEL_NAME}
       JUDGE_BASE_URL: ${JUDGE_BASE_URL}
+
+      SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
     command: ["panel", "serve", "demo.py", "--autoreload", "--static-dirs", "assets=./assets", "--port", "${PORT}", "--address", "0.0.0.0", "--allow-websocket-origin", "${BASE_URL}:${PORT}"]

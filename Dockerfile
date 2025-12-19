@@ -3,6 +3,13 @@
 # Use the official Python 3.10 image as the base image
 FROM python:3.10.17-slim
 
+# Install CA tools
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates && rm -rf /var/lib/apt/lists/*
+
+# Add your internal CA (PEM) and update trust
+# COPY ${LOCAL_SSL_CERTS} /usr/local/share/ca-certificates/
+RUN update-ca-certificates
+
 # Set the working directory inside the container
 WORKDIR /app
 
