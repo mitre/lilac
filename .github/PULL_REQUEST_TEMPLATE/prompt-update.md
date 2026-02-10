@@ -1,23 +1,51 @@
-Title: [prompt-update] Short description
+# Pull Request Title
+`[prompt-update] <short description>`
 
-Summary
+## Summary
+<!-- What does this PR change? Keep it brief and outcome-focused. -->
 
-MR Type: prompt-update
+## MR Type
+- **Type:** `prompt-update`
+<!-- If applicable, include additional types: bugfix, refactor, docs, tooling, etc. -->
 
-Scope and Impact
+## Scope & Impact
+**Affected areas:**
+- <!-- e.g., prompts/, evaluators/, docs/ -->
 
-Rationale
+**User-facing impact:**
+- <!-- What changes for users or downstream systems? -->
 
-Examples and Evidence
+## Rationale
+<!-- Why is this change needed? What problem does it solve? -->
 
-Test Plan
+## Examples & Evidence
+**Before:**
+- <!-- Input → Output or snippet -->
 
-Documentation updates
+**After:**
+- <!-- Input → Output or snippet -->
 
-Risk Assessment
+**Notes:**
+- <!-- Metrics, evaluation results, links to logs/screenshots, etc. -->
 
-Checklist:
+## Test Plan
+  - <!-- Steps + expected results -->
+
+## Documentation Updates
+- [ ] Docs updated (link):
+- [ ] No docs needed
+
+## Risk Assessment
+**Risk level:** Low / Medium / High
+
+**Potential risks:**
+- <!-- e.g., behavior regression, prompt brittleness, latency/cost -->
+
+**Mitigations / rollout plan:**
+- <!-- e.g., feature flag, phased rollout, monitoring -->
+
+## Checklist
 - [ ] Labels applied
 - [ ] Reviewers assigned via CODEOWNERS
 - [ ] Examples included
-- [ ] Docs and changelog updated
+- [ ] Docs updated
